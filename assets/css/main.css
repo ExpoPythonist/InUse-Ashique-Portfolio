@@ -685,6 +685,94 @@ section,
 }
 
 
+/* ABOUT SECTION BASE STYLES */
+.about-container {
+  padding: 3rem 1rem;
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.aboutt {
+  text-align: left;
+}
+
+.about-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #34495E;
+  margin-bottom: 1.2rem;
+}
+
+.highlight-name {
+  font-weight: 700;
+  color: #1F3B5A;
+}
+
+.highlight-role {
+  font-weight: 600;
+  color: #00796B;
+}
+
+.tagline {
+  display: block;
+  margin-top: 0.8rem;
+  color: #1F3B5A;
+  font-weight: 500;
+}
+
+.project-count {
+  color: #00796B;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+/* MOBILE RESPONSIVENESS */
+@media (max-width: 992px) {
+  .aboutt {
+    text-align: center;
+    margin-top: 8rem;
+  }
+
+  .about-text {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    text-align: left;
+    padding: 0 0.5rem;
+  }
+
+  .tagline {
+    font-size: 0.9rem;
+  }
+
+  .oval-button {
+    font-size: 0.9rem;
+    padding: 0.5rem 1.2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .about-container {
+    padding: 2rem 0.5rem;
+  }
+
+  .about-image {
+    margin-bottom: 1rem;
+  }
+
+  .about-text {
+    font-size: 0.9rem;
+    line-height: 1.45;
+  }
+
+  .tagline {
+    font-size: 0.85rem;
+  }
+}
+
+
 
 /*--------------------------------------------------------------
 # About Section
