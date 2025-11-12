@@ -248,7 +248,7 @@ h6 {
 
 @media (max-width: 1199px) {
   .header {
-    background-color: var(--background-color);
+    background-color: #535150ac;
     border-right: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
     width: 300px;
     left: -100%;
@@ -290,7 +290,7 @@ h6 {
 
 .header .header-toggle:hover {
   color: var(--contrast-color);
-  background-color: color-mix(in srgb, var(--accent-color) 90%, white 15%);
+  background-color: color-mix(in srgb, var(--accent-color) 90%, white 1%);
 }
 
 /*--------------------------------------------------------------
@@ -310,7 +310,7 @@ h6 {
 
 .navmenu a,
 .navmenu a:focus {
-  color: var(--nav-color);
+  color: var(--contrast-color);
   font-family: var(--nav-font);
   display: flex;
   align-items: center;
@@ -318,7 +318,7 @@ h6 {
   margin-bottom: 8px;
   font-size: 15px;
   border-radius: 50px;
-  background: color-mix(in srgb, var(--default-color), transparent 92%);
+  background: color-mix(in srgb, var(--default-color), transparent 70%);
   height: 56px;
   width: 100%;
   overflow: hidden;
@@ -340,6 +340,8 @@ h6 {
   .navmenu a,
   .navmenu a:focus {
     max-width: 56px;
+    color: var(--contrast-color);
+
   }
 
   .navmenu a span,
